@@ -1,0 +1,8 @@
+requests==2.13.0
+zeroc-ice==3.6.3
+urllib3==1.26.3
+modbus_tk==1.1.2
+pyserial==3.5
+py-opc==1.6.0
+enum34==1.1.1
+gevent==21.1.2
