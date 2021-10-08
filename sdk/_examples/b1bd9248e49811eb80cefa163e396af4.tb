@@ -1,0 +1,343 @@
+{
+    "on": true, 
+    "description": "", 
+    "gateway_uuid": "b1bd9248e49811eb80cefa163e396af4", 
+    "longitude": "114.409906", 
+    "properties": {
+        "5f03e001": {
+            "on": false, 
+            "uid": 1, 
+            "timestamp": 1628143887.0, 
+            "gateway_uuid": "b1bd9248e49811eb80cefa163e396af4", 
+            "description": "", 
+            "data": {
+                "3e27": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "6662", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "3e27", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 344, 
+                    "unit": "", 
+                    "name": "车辆进出总数"
+                }, 
+                "2dd5": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "0", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "BOOL", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "2dd5", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 349, 
+                    "unit": "", 
+                    "name": "车辆是否为黑名单车辆"
+                }, 
+                "4e1a": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "出", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "4e1a", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 351, 
+                    "unit": "", 
+                    "name": "当前车辆进出方向"
+                }, 
+                "ded6": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "黑色", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "ded6", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 348, 
+                    "unit": "", 
+                    "name": "当前车身颜色"
+                }, 
+                "6a38": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": " 张三", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "6a38", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 352, 
+                    "unit": "", 
+                    "name": "车主姓名"
+                }, 
+                "f0ae": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "4452", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:51", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "f0ae", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 346, 
+                    "unit": "", 
+                    "name": "车辆出总数"
+                }, 
+                "e53f": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "2210", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:51", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "e53f", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 345, 
+                    "unit": "", 
+                    "name": "车辆进入总数"
+                }, 
+                "d682": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "小轿车", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "d682", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 350, 
+                    "unit": "", 
+                    "name": "车辆类型"
+                }, 
+                "5e5a": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "12234437586", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:52", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "5e5a", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 353, 
+                    "unit": "", 
+                    "name": "车主电话"
+                }, 
+                "0988": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "鄂A52602", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-05 14:03:53", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 47, 
+                    "data_oid": "0988", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 347, 
+                    "unit": "", 
+                    "name": "当前车辆车牌"
+                }
+            }, 
+            "device_oid": "5f03e001", 
+            "tpl_id": 47, 
+            "type": "", 
+            "config": {
+                "bind": {}, 
+                "driver": "python/dr_test.iotos_1", 
+                "param": {
+                    "sub": []
+                }, 
+                "parentid": null
+            }, 
+            "id": 216, 
+            "name": "车辆动态统计"
+        }
+    }, 
+    "owner": "self", 
+    "timestamp": 1628143914.0, 
+    "latitude": "30.490147", 
+    "config": {
+        "_comment": "网关配置DEMO", 
+        "param": {
+            "Ice.ThreadPool.Client.SizeMax": 500, 
+            "Ice.MessageSizeMax": 10240, 
+            "Colony.Server.Endpoints": "tcp -h 43.226.65.51 -p 10098", 
+            "Cluster.dirIP": "43.226.65.51", 
+            "Ice.ThreadPool.Server.Size": 100, 
+            "Ice.ThreadPool.Server.SizeMax": 500, 
+            "Ice.Warn.Connections": 1, 
+            "Cluster.dirPort": 10001, 
+            "Route.Server.Endpoints": "tcp -h 43.226.65.51 -p 10077", 
+            "Ice.ThreadPool.Client.Size": 100, 
+            "Cluster.routeType": "RS", 
+            "Cluster.routeNet": "WAN"
+        }, 
+        "parentId": null
+    }, 
+    "id": "b1bd9248e49811eb80cefa163e396af4", 
+    "name": "test111"
+}

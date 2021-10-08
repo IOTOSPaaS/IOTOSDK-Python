@@ -1,0 +1,256 @@
+{
+    "on": true, 
+    "description": "", 
+    "gateway_uuid": "aaa0bb3eedda11eb89b3fa163e396af4", 
+    "longitude": "114.409906", 
+    "properties": {
+        "24f97acf": {
+            "on": false, 
+            "uid": 1, 
+            "timestamp": 1627898325.0, 
+            "gateway_uuid": "aaa0bb3eedda11eb89b3fa163e396af4", 
+            "description": "", 
+            "data": {
+                "fa5c": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "36.5℃", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "fa5c", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 341, 
+                    "unit": "", 
+                    "name": "当前人体温度"
+                }, 
+                "abaf": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "0", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "BOOL", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "abaf", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 340, 
+                    "unit": "", 
+                    "name": "门禁闸机打开状态"
+                }, 
+                "294e": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "4544", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "294e", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 337, 
+                    "unit": "", 
+                    "name": "总人数统计"
+                }, 
+                "ec79": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "是", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:45", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "ec79", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 343, 
+                    "unit": "", 
+                    "name": "当前人员是否佩戴口罩"
+                }, 
+                "e433": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "男", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "e433", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 342, 
+                    "unit": "", 
+                    "name": "当前人员性别"
+                }, 
+                "7e72": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "3575", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "7e72", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 339, 
+                    "unit": "", 
+                    "name": "人员出数量"
+                }, 
+                "6ae9": {
+                    "description": "", 
+                    "readwrite": "0", 
+                    "timestamp": 1627896753339, 
+                    "defaultvalue": "", 
+                    "maxvalue": "999", 
+                    "value": "1024", 
+                    "minvalue": "0", 
+                    "data_date": "2021-08-02 17:58:44", 
+                    "valuetype": "STRING", 
+                    "refreshcycle": "10", 
+                    "tpl_id": 46, 
+                    "data_oid": "6ae9", 
+                    "regexp": "^\\s*|\\s*$", 
+                    "sensibility": "0.1", 
+                    "config": {
+                        "disabled": false, 
+                        "_comment": "", 
+                        "proxy": {
+                            "index": -1, 
+                            "pointer": null
+                        }, 
+                        "param": {}, 
+                        "parentId": null
+                    }, 
+                    "id": 338, 
+                    "unit": "", 
+                    "name": "人员进入数量"
+                }
+            }, 
+            "device_oid": "24f97acf", 
+            "tpl_id": 46, 
+            "type": "", 
+            "config": {
+                "bind": {}, 
+                "driver": "python/dr_test.iotos_1", 
+                "param": {
+                    "sub": []
+                }, 
+                "parentid": null
+            }, 
+            "id": 215, 
+            "name": "人员动态统计"
+        }
+    }, 
+    "owner": "self", 
+    "timestamp": 1628143980.0, 
+    "latitude": "30.490147", 
+    "config": {
+        "_comment": "网关配置DEMO", 
+        "param": {
+            "Ice.ThreadPool.Client.SizeMax": 500, 
+            "Ice.MessageSizeMax": 10240, 
+            "Colony.Server.Endpoints": "tcp -h 121.36.152.93 -p 10098", 
+            "Cluster.dirIP": "121.36.152.931", 
+            "Ice.ThreadPool.Server.Size": 100, 
+            "Ice.ThreadPool.Server.SizeMax": 500, 
+            "Ice.Warn.Connections": 1, 
+            "Cluster.dirPort": 10001, 
+            "Route.Server.Endpoints": "tcp -h 121.36.152.93 -p 10077", 
+            "Ice.ThreadPool.Client.Size": 100, 
+            "Cluster.routeType": "RS", 
+            "Cluster.routeNet": "WAN"
+        }, 
+        "parentId": null
+    }, 
+    "id": "aaa0bb3eedda11eb89b3fa163e396af4", 
+    "name": "driver_test"
+}
