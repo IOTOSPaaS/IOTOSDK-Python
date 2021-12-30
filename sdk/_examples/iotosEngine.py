@@ -13,7 +13,7 @@ except:
 import time
 from iotos import *
 from routelib.jlib import *
-from utils import logger
+from library.iotos_util import logger
 import argparse
 parser = argparse.ArgumentParser(description='')
 
@@ -38,6 +38,7 @@ password = args.p
 uuid = args.i
 host = args.h
 s_name = args.s
+import psutil
 
 zm = IOTOSys()
 zm.http_host = host
